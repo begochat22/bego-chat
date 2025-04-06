@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
       "upload.wikimedia.org",
       "codekitapp.com",
       "archive.org",
+      "sdmntprsouthcentralus.oaiusercontent.com",
+      "res.cloudinary.com",
     ],
   },
 };
