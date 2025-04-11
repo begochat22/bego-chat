@@ -1,0 +1,19 @@
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+const AUTH_URL = process.env.NEXT_PUBLIC_AUTH_API_URL;
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
+const SKILL_API_URL = process.env.NEXT_PUBLIC_SKILL_API_URL;
+const REPO_API_URL = process.env.NEXT_PUBLIC_REPO_API_URL;
+const TEMPLATES_API_URL = process.env.NEXT_PUBLIC_TEMPLATES_API_URL;
+const USER_API_URL = process.env.NEXT_PUBLIC_USER_API_URL;
+
+const ENV = {
+  BACKEND_URL,
+  API_URL,
+  AUTH_URL,
+  SKILL_API_URL,
+  REPO_API_URL,
+  TEMPLATES_API_URL,
+  USER_API_URL,
+};
+
+export default ENV;
