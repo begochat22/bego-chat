@@ -5,6 +5,7 @@ const SKILL_API_URL = process.env.NEXT_PUBLIC_SKILL_API_URL;
 const REPO_API_URL = process.env.NEXT_PUBLIC_REPO_API_URL;
 const TEMPLATES_API_URL = process.env.NEXT_PUBLIC_TEMPLATES_API_URL;
 const USER_API_URL = process.env.NEXT_PUBLIC_USER_API_URL;
+const GOOGLE_ANALYTICS_ID = process.env.GOOGLE_ANALYTICS_ID;
 
 const ENV = {
   BACKEND_URL,
@@ -14,6 +15,7 @@ const ENV = {
   REPO_API_URL,
   TEMPLATES_API_URL,
   USER_API_URL,
+  GOOGLE_ANALYTICS_ID,
 };
 
 export default ENV;
