@@ -15,6 +15,7 @@ const AuthLayer: React.FC<AuthLayerProps> = ({ children }) => {
   const pathname = usePathname();
 
   const publicRoute: string[] = [
+    "/ai-girlfriend-app",
     "/auth/login",
     "/auth/register",
     "/blogs",

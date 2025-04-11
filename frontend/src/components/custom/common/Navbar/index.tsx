@@ -1,4 +1,4 @@
-'use client";';
+"use client";
 
 import { Skeleton } from "@/components/ui/skeleton";
 import useSession from "@/hooks/useSession";
@@ -14,7 +14,7 @@ const Navbar = () => {
     return pathname === href;
   };
   return (
-    <div className=" w-full sticky h-[4rem] top-0 bg-white font-dm-sans  flex justify-between px-16  shadow-sm  ">
+    <div className=" w-full z-[10] sticky h-[4rem] top-0 bg-white font-dm-sans  flex justify-between px-16  shadow-sm  ">
       <div className="    flex items-center gap-[.5rem]  ">
         <Link href={"/"} className=" text-[1.3rem]  font-[500]  ">
           BegoChat
@@ -60,6 +60,16 @@ const Navbar = () => {
           } hover:text-primary border-b-2    `}
         >
           Career
+        </Link>
+        <Link
+          href={"/ai-girlfriend-app"}
+          className={` ${
+            isActive("/ai-girlfriend-app")
+              ? " text-primary font-[600] border-primary  "
+              : " border-transparent"
+          } hover:text-primary border-b-2    `}
+        >
+          AI Girlfriend App
         </Link>
       </div>
       <div className="  flex justify-center items-center       ">

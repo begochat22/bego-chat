@@ -118,6 +118,10 @@ class AuthController {
         }
     }
     static async verify(req, res) {
+        console.log("verify token called");
+        console.log("req.cookies : ", req.cookies);
+        console.log("req.headers : ", req.headers);
+        console.log("req : ", req);
         const token = req.cookies?.accessToken;
         if (!token) {
             return res.status(403).json({ message: "No Token Found", auth: false });
