@@ -44,7 +44,7 @@ app.get("/", (req: Request, res: Response) => {
   return res.send("It's working 🙌");
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
+  await databaseConnection();
   console.log(`Server is running on PORT ${PORT}`);
-  databaseConnection();
 });
