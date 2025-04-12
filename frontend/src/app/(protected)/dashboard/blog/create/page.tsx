@@ -15,15 +15,10 @@ import { FaEye } from "react-icons/fa";
 import "@uppy/core/dist/style.css";
 import "@uppy/dashboard/dist/style.css";
 
-import { Button } from "../../../../../components/ui/button";
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "../../../../../components/ui/tabs";
-import CreateBlogTab from "../../../../../components/custom/blog/CreateBlogTab";
-import SeoMetaPage from "../../../../../components/custom/blog/SeoMetaPage";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import CreateBlogTab from "@/components/custom/blog/CreateBlogTab";
+import SeoMetaPage from "@/components/custom/blog/SeoMetaPage";
 
 // API base URL
 const ApiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
