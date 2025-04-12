@@ -1,8 +1,7 @@
 "use client";
 
+import Navbar from "@/components/custom/common/Navbar/index";
 import React from "react";
-
-import Navbar from "../../components/custom/common/Navbar/index";
 
 const PageLayout = ({ children }: { children: React.ReactNode }) => {
   return (
