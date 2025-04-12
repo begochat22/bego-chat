@@ -28,7 +28,7 @@ const NoResultAnimation = ({
         />
 
         <div className="text-center relative w-full  flex flex-col">
-          <span className="bg-gradient-to-br from-white from-30% to-white/40 bg-clip-text leading-none tracking-tighter text-transparent text-[1.8rem] mt-[1rem]   animate-fade-in py-[1rem] [--animation-delay:200ms] font-poppins font-[600] w-full">
+          <span className="bg-gradient-to-br text-black from-30% to-white/40 bg-clip-text leading-none tracking-tighter  text-[1.8rem] mt-[1rem]   animate-fade-in py-[1rem] [--animation-delay:200ms] font-dm-sans font-[600] w-full">
             No Result found for your search
           </span>
         </div>

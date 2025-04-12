@@ -158,10 +158,6 @@ class AuthController {
   }
 
   static async verify(req: Request, res: Response) {
-    console.log("verify token called");
-    console.log("req.cookies : ", req.cookies);
-    console.log("req.headers : ", req.headers);
-    console.log("req : ", req);
     const token = req.cookies?.accessToken;
 
     if (!token) {
