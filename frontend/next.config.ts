@@ -1,11 +1,7 @@
-import { createRequire } from "module";
-import path from "path";
 import type { NextConfig } from "next";
 
-const require = createRequire(import.meta.url);
-
-const nextConfig = {
-  reactStrictMode: true,
+const nextConfig: NextConfig = {
+  /* config options here */
   images: {
     domains: [
       "encrypted-tbn0.gstatic.com",
@@ -15,13 +11,6 @@ const nextConfig = {
       "sdmntprsouthcentralus.oaiusercontent.com",
       "res.cloudinary.com",
     ],
-  },
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      "@": path.resolve(__dirname, "./src"),
-    };
-    return config;
   },
 };
 
