@@ -7,6 +7,9 @@ const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 const GOOGLE_CALLBACK_URL = process.env.GOOGLE_CALLBACK_URL;
 const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
 const SESSION_SECRET = process.env.SESSION_SECRET;
+const CLOUD_NAME = process.env.CLOUD_NAME;
+const CLOUDINARY_KEY = process.env.CLOUDINARY_KEY;
+const CLOUDINARY_SECRET = process.env.CLOUDINARY_SECRET;
 const ENV = {
     PORT,
     FRONTEND_URL,
@@ -17,5 +20,8 @@ const ENV = {
     JWT_SECRET_KEY,
     SESSION_SECRET,
     BACKEND_URL,
+    CLOUD_NAME,
+    CLOUDINARY_KEY,
+    CLOUDINARY_SECRET,
 };
 export default ENV;

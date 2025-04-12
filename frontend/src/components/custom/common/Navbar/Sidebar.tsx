@@ -37,7 +37,7 @@ export const Sidebar: React.FC = () => {
 
         <div className="  mb-[2rem] ">
           <Button
-            onClick={() => router.push("/dashboard/blog")}
+            onClick={() => router.push("/dashboard/blog/create")}
             className=" bg-primary cursor-pointer h-[2.5rem]   hover:bg-primary/70 rounded-[.3rem]  text-white "
           >
             <svg

@@ -15,6 +15,7 @@ export interface MenuItem {
   label: string;
   icon?: React.ReactNode;
   path?: string;
+  childPaths?: string[];
   children?: MenuItem[];
 }
 
@@ -23,20 +24,24 @@ export const menuData: MenuItem[] = [
     label: "Dashboard",
     icon: <RxDashboard />,
     path: "/dashboard",
+    childPaths: [],
   },
   {
     label: "Blogs",
     icon: <LuNotebookPen />,
     path: "/dashboard/blog",
+    childPaths: ["/dashboard/blog/create", "/dashboard/blog/edit"],
   },
   {
     label: "Analytics",
     icon: <TbBrandGoogleAnalytics />,
     path: "/dashboard/analytics",
+    childPaths: [],
   },
   {
     label: "Profile",
     icon: <FaRegUser />,
     path: "/dashboard/profile",
+    childPaths: [],
   },
 ];
