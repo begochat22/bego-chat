@@ -19,9 +19,7 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import CreateBlogTab from "@/components/custom/blog/CreateBlogTab";
 import SeoMetaPage from "@/components/custom/blog/SeoMetaPage";
-
-// API base URL
-const ApiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+import ENV from "@/config/ENV";
 
 // Combined schema for both tabs
 const basicFormSchema = z.object({
@@ -105,7 +103,7 @@ const BlogPostPage: React.FC = () => {
     autoProceed: true,
   })
     .use(XHRUpload, {
-      endpoint: `${ApiUrl}/api/assets/upload`,
+      endpoint: `${ENV.BACKEND_URL}/api/assets/upload`,
       fieldName: "image",
     })
     .on("upload-success", (file, response) => {
@@ -132,7 +130,7 @@ const BlogPostPage: React.FC = () => {
     autoProceed: true,
   })
     .use(XHRUpload, {
-      endpoint: `${ApiUrl}/api/assets/upload`,
+      endpoint: `${ENV.BACKEND_URL}/api/assets/upload`,
       fieldName: "image",
     })
     .on("upload-success", (file, response) => {
@@ -161,7 +159,7 @@ const BlogPostPage: React.FC = () => {
 
     try {
       const response = await fetch(
-        `${ApiUrl}/api/blog/check-slug?slug=${slug}`
+        `${ENV.BACKEND_URL}/api/blog/check-slug?slug=${slug}`
       );
       const data = await response.json();
 
@@ -231,7 +229,7 @@ const BlogPostPage: React.FC = () => {
       };
 
       // Submit to API
-      const response = await fetch(`${ApiUrl}/api/blog`, {
+      const response = await fetch(`${ENV.BACKEND_URL}/api/blog`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
