@@ -6,7 +6,7 @@ import { Search } from "lucide-react";
 import { format } from "date-fns";
 import Link from "next/link";
 
-import { Input } from "@/components/ui/input";
+import { Input } from "../../../../components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
   Select,
