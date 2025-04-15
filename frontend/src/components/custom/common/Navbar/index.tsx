@@ -14,9 +14,12 @@ const Navbar = () => {
     return pathname === href;
   };
   return (
-    <div className=" w-full z-[10] sticky h-[4rem] top-0 bg-white font-dm-sans  flex justify-between px-16  shadow-sm  ">
+    <div className=" w-full z-[100] sticky bg-white h-[4rem] top-0  font-dm-sans  flex justify-between px-16  shadow-sm  ">
       <div className="    flex items-center gap-[.5rem]  ">
-        <Link href={"/"} className=" text-[1.3rem]  font-[500]  ">
+        <Link
+          href={"/"}
+          className=" text-[1.3rem] text-purple-900  font-[500]  "
+        >
           BegoChat
         </Link>
       </div>
@@ -25,9 +28,9 @@ const Navbar = () => {
           href={"/"}
           className={` ${
             isActive("/")
-              ? " text-primary font-[600] border-primary  "
+              ? " text-purple-900 font-[600] border-purple-900  "
               : " border-transparent"
-          } hover:text-primary border-b-2    `}
+          } hover:text-purple-900 border-b-2    `}
         >
           Home
         </Link>
@@ -35,9 +38,9 @@ const Navbar = () => {
           href={"/contact"}
           className={` ${
             isActive("/contact")
-              ? " text-primary font-[600] border-primary  "
+              ? " text-purple-900 font-[600] border-purple-900  "
               : " border-transparent"
-          } hover:text-primary border-b-2    `}
+          } hover:text-purple-900 border-b-2    `}
         >
           Contact
         </Link>
@@ -45,9 +48,9 @@ const Navbar = () => {
           href={"/about"}
           className={` ${
             isActive("/about")
-              ? " text-primary font-[600] border-primary  "
+              ? " text-purple-900 font-[600] border-purple-900  "
               : " border-transparent"
-          } hover:text-primary border-b-2    `}
+          } hover:text-purple-900 border-b-2    `}
         >
           About
         </Link>
@@ -55,9 +58,9 @@ const Navbar = () => {
           href={"/career"}
           className={` ${
             isActive("/career")
-              ? " text-primary font-[600] border-primary  "
+              ? " text-purple-900 font-[600] border-purple-900  "
               : " border-transparent"
-          } hover:text-primary border-b-2    `}
+          } hover:text-purple-900 border-b-2    `}
         >
           Career
         </Link>
@@ -65,27 +68,27 @@ const Navbar = () => {
           href={"/ai-girlfriend-app"}
           className={` ${
             isActive("/ai-girlfriend-app")
-              ? " text-primary font-[600] border-primary  "
+              ? " text-purple-900 font-[600] border-purple-900  "
               : " border-transparent"
-          } hover:text-primary border-b-2    `}
+          } hover:text-purple-900 border-b-2    `}
         >
           AI Girlfriend App
         </Link>
       </div>
       <div className="  flex justify-center items-center       ">
         {loading ? (
-          <Skeleton className=" mx-auto w-[5rem] h-[2.5rem] flex justify-center items-center  rounded-sm hover:opacity-75 duration-150 "></Skeleton>
+          <Skeleton className=" mx-auto  w-[5rem] h-[2.5rem] flex justify-center items-center  rounded-sm hover:opacity-75 duration-150 "></Skeleton>
         ) : !loading && loggedIn ? (
           <Link
             href={"/dashboard"}
-            className=" mx-auto bg-primary min-w-[5rem] px-[1rem] h-[2.3rem] flex justify-center items-center text-white rounded-sm hover:opacity-75 duration-150 "
+            className=" mx-auto bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800 min-w-[5rem] px-[1rem] h-[2.3rem] flex justify-center items-center text-white rounded-sm hover:opacity-75 duration-150 "
           >
             Dashboard
           </Link>
         ) : (
           <Link
             href={"/auth/login"}
-            className=" mx-auto bg-primary w-[5rem] h-[2.5rem] flex justify-center items-center text-white rounded-sm hover:opacity-75 duration-150 "
+            className=" mx-auto bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800 w-[5rem] h-[2.5rem] flex justify-center items-center text-white rounded-sm hover:opacity-75 duration-150 "
           >
             Login
           </Link>
