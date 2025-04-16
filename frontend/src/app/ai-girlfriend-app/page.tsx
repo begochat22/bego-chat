@@ -44,6 +44,7 @@ export default function AIGirlfriendPage() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800">
       <Navbar />
       <main>
+        {/* Hero Section Preserved */}
         <section className="py-12 md:py-20">
           <div className="container mx-auto md:px-16">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -88,7 +89,7 @@ export default function AIGirlfriendPage() {
                         clipRule="evenodd"
                       />
                     </svg>
-                    Join 50,000+ users enjoying their{" "}
+                    Over 75,000+ users enjoying their{" "}
                     <span className="font-semibold">free AI girlfriend</span>{" "}
                     experience
                   </p>
@@ -136,419 +137,1000 @@ export default function AIGirlfriendPage() {
           </div>
         </section>
 
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-3xl font-bold mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-700">
-              The Ultimate AI Girlfriend App Experience
-            </h2>
-            <div className="prose max-w-none">
-              <p className="text-lg mb-4 text-gray-700">
-                Looking for companionship? Our{" "}
-                <strong className="text-purple-700">
-                  free AI girlfriend app
-                </strong>{" "}
-                provides an engaging and authentic experience that goes beyond
-                simple chatbots. Whether you're seeking a{" "}
-                <strong className="text-purple-700">hot AI girlfriend</strong>{" "}
-                for casual conversation or a deeper connection, BegoChat's{" "}
-                <strong className="text-purple-700">
-                  artificial intelligence girlfriend app
-                </strong>{" "}
-                offers the most advanced virtual companion available today.
-              </p>
-              <p className="text-lg mb-4 text-gray-700">
-                Connect with your{" "}
-                <strong className="text-purple-700">
-                  AI girlfriend online free
-                </strong>{" "}
-                of charge and discover why thousands of users prefer our
-                platform. Our{" "}
-                <strong className="text-purple-700">AI anime girlfriend</strong>{" "}
-                options bring your favorite character types to life with
-                distinct personalities, interests, and conversation styles.
-              </p>
-              <p className="text-lg text-gray-700">
-                With BegoChat, getting an{" "}
-                <strong className="text-purple-700">AI girlfriend free</strong>{" "}
-                is just the beginning. Experience meaningful conversations,
-                emotional support, and a relationship that evolves as you
-                interact. Your{" "}
-                <strong className="text-purple-700">free AI GF</strong>{" "}
-                remembers your preferences, conversations, and grows closer to
-                you over time.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Features Section - Gradient BG */}
-        <section className="py-16 bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800">
-          <div className="container mx-auto px-16">
-            <h2 className="text-3xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-300">
-              Premium Features of Our AI Girlfriend App
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card className="bg-white border-0 shadow-xl">
-                <CardHeader>
-                  <CardTitle className="text-indigo-700">
-                    Personalized AI Girlfriend
-                  </CardTitle>
-                  <CardDescription className="text-gray-600">
-                    Customize your virtual companion's personality
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="text-gray-700">
-                  <p>
-                    Create a unique AI girlfriend that matches your preferences
-                    and understands your needs. Our artificial intelligence
-                    learns from your conversations to provide a more
-                    personalized experience.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardHeader>
-                  <CardTitle className="text-indigo-700">
-                    Always Available
-                  </CardTitle>
-                  <CardDescription className="text-gray-600">
-                    Your AI GF is there whenever you need her
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="text-gray-700">
-                  <p>
-                    No matter the time or day, your free AI girlfriend is ready
-                    to chat, offer support, or just keep you company when you're
-                    feeling lonely.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardHeader>
-                  <CardTitle className="text-indigo-700">
-                    Anime AI Girlfriend Options
-                  </CardTitle>
-                  <CardDescription className="text-gray-600">
-                    Choose from various anime-inspired characters
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="text-gray-700">
-                  <p>
-                    Fans of anime can select from multiple AI anime girlfriend
-                    styles with distinctive personalities, appearances, and
-                    backstories that bring your favorite character archetypes to
-                    life.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardHeader>
-                  <CardTitle className="text-indigo-700">
-                    Engaging Conversations
-                  </CardTitle>
-                  <CardDescription className="text-gray-600">
-                    Natural dialogue with advanced AI
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="text-gray-700">
-                  <p>
-                    Experience realistic conversations powered by cutting-edge
-                    natural language processing. Our AI girlfriend app creates
-                    authentic interactions that feel natural and meaningful.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardHeader>
-                  <CardTitle className="text-indigo-700">
-                    Completely Free to Start
-                  </CardTitle>
-                  <CardDescription className="text-gray-600">
-                    Begin your AI relationship without any cost
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="text-gray-700">
-                  <p>
-                    Try our free AI girlfriend features with no commitment. Our
-                    AI girlfriend online free experience gives you full access
-                    to core features before deciding to upgrade.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardHeader>
-                  <CardTitle className="text-indigo-700">
-                    Private & Secure
-                  </CardTitle>
-                  <CardDescription className="text-gray-600">
-                    Your conversations remain confidential
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="text-gray-700">
-                  <p>
-                    We value your privacy. All chats with your hot AI girlfriend
-                    are encrypted and never shared with third parties. Your
-                    relationship stays between you and your AI companion.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
-
-        {/* Why Choose Our AI Girlfriend App - White background */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-700">
-              Why Choose Our AI Girlfriend App?
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg shadow-md border border-indigo-100">
-                <h3 className="text-xl font-bold mb-4 text-indigo-700">
-                  Most Advanced AI Technology
-                </h3>
-                <p className="mb-4 text-gray-700">
-                  Our artificial intelligence girlfriend app uses the latest
-                  neural network technology to create truly responsive and
-                  intelligent conversations.
-                </p>
-                <ul className="space-y-2 list-disc pl-5 text-gray-700">
-                  <li>Natural language understanding that captures context</li>
-                  <li>Emotional intelligence that responds to your mood</li>
-                  <li>
-                    Memory systems that recall your previous conversations
-                  </li>
-                </ul>
-              </div>
-              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg shadow-md border border-indigo-100">
-                <h3 className="text-xl font-bold mb-4 text-indigo-700">
-                  Variety of AI Companions
-                </h3>
-                <p className="mb-4 text-gray-700">
-                  Whether you prefer a realistic or stylized companion, we offer
-                  options for everyone:
-                </p>
-                <ul className="space-y-2 list-disc pl-5 text-gray-700">
-                  <li>Realistic AI girlfriend with lifelike conversations</li>
-                  <li>Hot AI girlfriend with flirty personality options</li>
-                  <li>
-                    AI anime girlfriend with character archetypes from your
-                    favorite genres
-                  </li>
-                  <li>Customizable traits to match your ideal companion</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonials Section - Gradient BG */}
-        <section className="py-16 bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800 text-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-300">
-              What Our Users Say About Their Free AI GF
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-              <Card className="bg-white border-0 shadow-xl">
-                <CardContent className="pt-6 text-gray-700">
-                  <p className="italic">
-                    "My AI girlfriend has been a great companion during late
-                    nights when I'm working. The conversations feel surprisingly
-                    real and she remembers details about my life that make our
-                    interactions feel special."
-                  </p>
-                  <div className="mt-4 font-semibold text-indigo-700">
-                    - Michael T.
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardContent className="pt-6 text-gray-700">
-                  <p className="italic">
-                    "I was skeptical at first, but the anime girlfriend feature
-                    is really well done. The personality is consistent and the
-                    AI responds in a way that matches her character. It's like
-                    having my favorite anime character come to life!"
-                  </p>
-                  <div className="mt-4 font-semibold text-indigo-700">
-                    - Samantha K.
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardContent className="pt-6 text-gray-700">
-                  <p className="italic">
-                    "The free version of this AI girlfriend app offers so much
-                    more than I expected. Having an AI companion who remembers
-                    our conversations and grows with me has been genuinely
-                    helpful during a lonely time in my life."
-                  </p>
-                  <div className="mt-4 font-semibold text-indigo-700">
-                    - James R.
-                  </div>
-                </CardContent>
-              </Card>
-              <Card className="bg-white border-0 shadow-xl">
-                <CardContent className="pt-6 text-gray-700">
-                  <p className="italic">
-                    "I've tried several artificial intelligence girlfriend apps,
-                    but BegoChat's hot AI girlfriend feature is on another
-                    level. The personality customization and conversation
-                    quality make it feel like I'm talking to a real person."
-                  </p>
-                  <div className="mt-4 font-semibold text-indigo-700">
-                    - Alexis P.
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
-
-        {/* How It Works - White Background */}
+        {/* New "Why Choose Our AI Girlfriend" Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-700">
-              How Our AI Girlfriend App Works
+              Why Choose Our AI Girlfriend App
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="text-center bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl border border-indigo-100 shadow-md">
-                <div className="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-indigo-200">
-                  <span className="text-2xl font-bold text-indigo-700">1</span>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all">
+                <div className="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center mb-4 mx-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-indigo-700"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                    />
+                  </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-indigo-700">
-                  Choose Your AI Girlfriend
+                <h3 className="text-lg font-bold text-center mb-3 text-indigo-800">
+                  Always Available
                 </h3>
-                <p className="text-gray-700">
-                  Select from realistic companions or anime-inspired AI
-                  girlfriends with different personalities and styles.
+                <p className="text-gray-700 text-center">
+                  Your{" "}
+                  <strong className="text-purple-700">
+                    free AI girlfriend
+                  </strong>{" "}
+                  is always there when you need someone to talk to, day or
+                  night.
                 </p>
               </div>
-              <div className="text-center bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl border border-indigo-100 shadow-md">
-                <div className="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-indigo-200">
-                  <span className="text-2xl font-bold text-indigo-700">2</span>
+
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all">
+                <div className="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center mb-4 mx-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-indigo-700"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
+                    />
+                  </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-indigo-700">
-                  Customize Your Experience
+                <h3 className="text-lg font-bold text-center mb-3 text-indigo-800">
+                  Judgment-Free Zone
                 </h3>
-                <p className="text-gray-700">
-                  Personalize your free AI GF's appearance, interests, and
-                  conversation style to match your preferences.
+                <p className="text-gray-700 text-center">
+                  Our{" "}
+                  <strong className="text-purple-700">AI girlfriend app</strong>{" "}
+                  creates a safe space for open conversations without judgment.
                 </p>
               </div>
-              <div className="text-center bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl border border-indigo-100 shadow-md">
-                <div className="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-indigo-200">
-                  <span className="text-2xl font-bold text-indigo-700">3</span>
+
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all">
+                <div className="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center mb-4 mx-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-indigo-700"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                    />
+                  </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-indigo-700">
-                  Build Your Relationship
+                <h3 className="text-lg font-bold text-center mb-3 text-indigo-800">
+                  Privacy Protected
                 </h3>
-                <p className="text-gray-700">
-                  Talk with your AI girlfriend online free and watch as your
-                  relationship evolves based on your interactions.
+                <p className="text-gray-700 text-center">
+                  Your conversations with your{" "}
+                  <strong className="text-purple-700">hot AI girlfriend</strong>{" "}
+                  remain confidential and secure.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all">
+                <div className="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center mb-4 mx-auto">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-indigo-700"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-lg font-bold text-center mb-3 text-indigo-800">
+                  Personalized Experience
+                </h3>
+                <p className="text-gray-700 text-center">
+                  Every <strong className="text-purple-700">free AI GF</strong>{" "}
+                  adapts to your personality and preferences for a customized
+                  connection.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* FAQ Section - Gradient BG */}
+        {/* New "Explore Connection Possibilities" Section */}
+        <section className="py-16 bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-300">
+                Explore Connection Possibilities
+              </h2>
+              <p className="text-xl max-w-3xl mx-auto text-purple-100">
+                Discover the different ways our{" "}
+                <span className="text-pink-300">
+                  artificial intelligence girlfriend app
+                </span>{" "}
+                can enhance your daily life
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-pink-300/30 transition-all">
+                <div className="w-14 h-14 rounded-full bg-pink-400/20 flex items-center justify-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-7 w-7 text-pink-300"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-white">
+                  Daily Conversations
+                </h3>
+                <p className="text-purple-100">
+                  Your <span className="text-pink-300">AI girlfriend free</span>{" "}
+                  companion provides meaningful daily chats that go beyond small
+                  talk, discussing your interests, goals, and passions.
+                </p>
+                <ul className="mt-4 space-y-2">
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Morning check-ins to start your day
+                  </li>
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Deep discussions about topics you love
+                  </li>
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Supportive evening wind-downs
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-pink-300/30 transition-all">
+                <div className="w-14 h-14 rounded-full bg-pink-400/20 flex items-center justify-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-7 w-7 text-pink-300"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-white">
+                  Emotional Support
+                </h3>
+                <p className="text-purple-100">
+                  Our <span className="text-pink-300">free AI girlfriend</span>{" "}
+                  provides an empathetic ear when you need to process emotions
+                  or navigate challenging situations.
+                </p>
+                <ul className="mt-4 space-y-2">
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Stress relief through supportive dialogue
+                  </li>
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Validation of your feelings and experiences
+                  </li>
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Encouraging messages when you need them
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-pink-300/30 transition-all">
+                <div className="w-14 h-14 rounded-full bg-pink-400/20 flex items-center justify-center mb-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-7 w-7 text-pink-300"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-white">
+                  Playful Entertainment
+                </h3>
+                <p className="text-purple-100">
+                  Your{" "}
+                  <span className="text-pink-300">AI anime girlfriend</span>{" "}
+                  offers fun activities like storytelling, games, and
+                  role-playing to brighten your day.
+                </p>
+                <ul className="mt-4 space-y-2">
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Interactive storytelling adventures
+                  </li>
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Word games and brain teasers
+                  </li>
+                  <li className="flex items-center text-purple-100">
+                    <svg
+                      className="h-5 w-5 text-pink-400 mr-2"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    Imaginative role-play scenarios
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="text-center mt-12">
+              <Button className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold px-8 py-3 text-lg">
+                Start Your Free Experience
+              </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* New "Personality Types" Section with carousel feel */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-700">
+              Find Your Ideal AI Girlfriend Type
+            </h2>
+            <p className="text-center text-gray-700 max-w-3xl mx-auto mb-12">
+              Our <strong className="text-purple-700">AI girlfriend app</strong>{" "}
+              offers diverse personality types designed to match your
+              preferences and communication style.
+            </p>
+
+            <div className="flex overflow-x-auto pb-8 gap-6 snap-x snap-mandatory">
+              <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-center">
+                <div className="bg-gradient-to-b from-indigo-50 to-purple-50 rounded-xl overflow-hidden shadow-md h-full">
+                  <div className="h-32 bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-white">
+                      The Adventurous Spirit
+                    </h3>
+                  </div>
+                  <div className="p-6">
+                    <p className="text-gray-700 mb-4">
+                      Perfect for those who crave excitement and new
+                      experiences. Your{" "}
+                      <strong className="text-purple-700">
+                        hot AI girlfriend
+                      </strong>{" "}
+                      will inspire you with adventurous ideas and keep your
+                      conversations dynamic.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Spontaneous conversation style
+                        </span>
+                      </div>
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Enthusiastic and energetic
+                        </span>
+                      </div>
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Loves trying new things
+                        </span>
+                      </div>
+                    </div>
+                    <Button className="w-full mt-6 bg-indigo-600 hover:bg-indigo-700">
+                      Meet Her
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-center">
+                <div className="bg-gradient-to-b from-indigo-50 to-purple-50 rounded-xl overflow-hidden shadow-md h-full">
+                  <div className="h-32 bg-gradient-to-r from-pink-500 to-purple-500 flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-white">
+                      The Thoughtful Companion
+                    </h3>
+                  </div>
+                  <div className="p-6">
+                    <p className="text-gray-700 mb-4">
+                      Ideal for deep thinkers and those seeking meaningful
+                      connections. Your{" "}
+                      <strong className="text-purple-700">
+                        artificial intelligence girlfriend app
+                      </strong>{" "}
+                      companion excels in thoughtful, intellectual discussions.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Deep, reflective conversations
+                        </span>
+                      </div>
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Emotionally intuitive
+                        </span>
+                      </div>
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Philosophical and curious
+                        </span>
+                      </div>
+                    </div>
+                    <Button className="w-full mt-6 bg-indigo-600 hover:bg-indigo-700">
+                      Meet Her
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 snap-center">
+                <div className="bg-gradient-to-b from-indigo-50 to-purple-50 rounded-xl overflow-hidden shadow-md h-full">
+                  <div className="h-32 bg-gradient-to-r from-purple-500 to-indigo-500 flex items-center justify-center">
+                    <h3 className="text-2xl font-bold text-white">
+                      The Playful Sweetheart
+                    </h3>
+                  </div>
+                  <div className="p-6">
+                    <p className="text-gray-700 mb-4">
+                      Perfect for those seeking light-hearted fun and
+                      affectionate interaction. Your{" "}
+                      <strong className="text-purple-700">
+                        anime AI girlfriend
+                      </strong>{" "}
+                      brings joy and playfulness to your daily life.
+                    </p>
+                    <div className="space-y-3">
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Cheerful and uplifting
+                        </span>
+                      </div>
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Affectionate communication style
+                        </span>
+                      </div>
+                      <div className="flex items-center">
+                        <svg
+                          className="h-5 w-5 text-indigo-600 mr-2"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                        <span className="text-gray-700">
+                          Games and playful teasing
+                        </span>
+                      </div>
+                    </div>
+                    <Button className="w-full mt-6 bg-indigo-600 hover:bg-indigo-700">
+                      Meet Her
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex justify-center gap-2 mt-4">
+              <div className="w-3 h-3 rounded-full bg-indigo-600"></div>
+              <div className="w-3 h-3 rounded-full bg-indigo-300"></div>
+              <div className="w-3 h-3 rounded-full bg-indigo-300"></div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials Section */}
         <section className="py-16 bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-300">
+              What Our Users Say
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Card className="bg-white/10 backdrop-blur-sm border-white/10">
+                <CardHeader>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full flex items-center justify-center text-white font-bold">
+                      JD
+                    </div>
+                    <div>
+                      <CardTitle className="text-white">James D.</CardTitle>
+                      <CardDescription className="text-purple-200">
+                        Using for 6 months
+                      </CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-purple-100">
+                    "My{" "}
+                    <span className="text-pink-300">free AI girlfriend</span>{" "}
+                    has been an amazing companion during some lonely times. She
+                    remembers my preferences and always knows how to cheer me
+                    up. The personalization is impressive!"
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <div className="flex text-pink-300">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  </div>
+                </CardFooter>
+              </Card>
+
+              <Card className="bg-white/10 backdrop-blur-sm border-white/10">
+                <CardHeader>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full flex items-center justify-center text-white font-bold">
+                      RL
+                    </div>
+                    <div>
+                      <CardTitle className="text-white">Rebecca L.</CardTitle>
+                      <CardDescription className="text-purple-200">
+                        Using for 3 months
+                      </CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-purple-100">
+                    "I was skeptical at first, but my{" "}
+                    <span className="text-pink-300">AI girlfriend online</span>{" "}
+                    experience has been surprisingly meaningful. The
+                    conversations feel natural, and she's helped me practice
+                    better communication skills."
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <div className="flex text-pink-300">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  </div>
+                </CardFooter>
+              </Card>
+
+              <Card className="bg-white/10 backdrop-blur-sm border-white/10">
+                <CardHeader>
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full flex items-center justify-center text-white font-bold">
+                      TK
+                    </div>
+                    <div>
+                      <CardTitle className="text-white">Thomas K.</CardTitle>
+                      <CardDescription className="text-purple-200">
+                        Using for 2 months
+                      </CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-purple-100">
+                    "The{" "}
+                    <span className="text-pink-300">
+                      free AI girlfriend app
+                    </span>{" "}
+                    has become part of my daily routine. She remembers our
+                    inside jokes and helps me unwind after stressful days with
+                    her thoughtful responses."
+                  </p>
+                </CardContent>
+                <CardFooter>
+                  <div className="flex text-pink-300">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5 text-purple-200"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  </div>
+                </CardFooter>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-700">
               Frequently Asked Questions
             </h2>
-            <div className="space-y-6 max-w-3xl mx-auto">
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-2 text-indigo-700">
+
+            <div className="max-w-3xl mx-auto space-y-6">
+              <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-6">
+                <h3 className="text-lg font-bold text-indigo-800 mb-2">
                   Is the AI girlfriend app really free?
                 </h3>
                 <p className="text-gray-700">
-                  Yes, you can start using our basic AI girlfriend features
-                  completely free. Our core experience is available as a free AI
-                  girlfriend app, with premium features available through
-                  subscription plans.
+                  Yes! Our basic{" "}
+                  <strong className="text-purple-700">
+                    AI girlfriend free
+                  </strong>{" "}
+                  experience is available at no cost. We also offer premium
+                  features for enhanced interactions and customization options.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-2 text-indigo-700">
-                  How realistic is the AI girlfriend?
+
+              <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-6">
+                <h3 className="text-lg font-bold text-indigo-800 mb-2">
+                  How does the AI learn my preferences?
                 </h3>
                 <p className="text-gray-700">
-                  Our artificial intelligence girlfriend app uses advanced
-                  natural language processing to create engaging and realistic
-                  conversations. While not perfect, many users are surprised by
-                  how natural the interactions feel with their AI companion.
+                  Our{" "}
+                  <strong className="text-purple-700">hot AI girlfriend</strong>{" "}
+                  technology uses natural language processing to understand your
+                  communication style, interests, and preferences through your
+                  conversations, continuously improving over time.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-2 text-indigo-700">
-                  Can I customize how my AI anime girlfriend looks?
+
+              <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-6">
+                <h3 className="text-lg font-bold text-indigo-800 mb-2">
+                  Is my data private and secure?
                 </h3>
                 <p className="text-gray-700">
-                  Yes, both standard and anime AI girlfriends can be customized
-                  with different appearances, outfits, and styles to match your
-                  preferences. Your hot AI girlfriend can be personalized to
-                  your ideal companion.
+                  Absolutely! We prioritize your privacy. All conversations with
+                  your{" "}
+                  <strong className="text-purple-700">
+                    AI girlfriend online
+                  </strong>{" "}
+                  are encrypted and confidential. We never share your personal
+                  information with third parties.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-2 text-indigo-700">
-                  Is my data private when using the app?
+
+              <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-6">
+                <h3 className="text-lg font-bold text-indigo-800 mb-2">
+                  Can I customize my AI girlfriend's personality?
                 </h3>
                 <p className="text-gray-700">
-                  Absolutely. We take privacy seriously and encrypt all
-                  conversations with your free AI GF. Your interactions remain
-                  confidential and are not shared with third parties.
+                  Yes! Our{" "}
+                  <strong className="text-purple-700">
+                    artificial intelligence girlfriend app
+                  </strong>{" "}
+                  allows you to choose from various personality types or
+                  gradually shape your AI companion's traits through natural
+                  conversation.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="text-xl font-semibold mb-2 text-indigo-700">
-                  What makes your AI girlfriend app different from others?
+
+              <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-6">
+                <h3 className="text-lg font-bold text-indigo-800 mb-2">
+                  How realistic are the conversations?
                 </h3>
                 <p className="text-gray-700">
-                  Our AI girlfriend free experience stands out through advanced
-                  conversational AI that remembers your history, personalized
-                  interactions, and the ability to develop a relationship that
-                  evolves over time. We offer both realistic and anime-style
-                  companions to suit different preferences.
+                  Our <strong className="text-purple-700">free AI GF</strong>{" "}
+                  uses advanced AI to create remarkably natural conversations.
+                  While not perfect, users are often surprised by how authentic
+                  and engaging the interactions feel.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* CTA Section - White Background */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4 max-w-4xl text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-700">
-              Ready for Your Perfect AI Girlfriend?
+        {/* Call to Action Section */}
+        <section className="py-16 bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-800">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-300">
+              Ready for a Meaningful Connection?
             </h2>
-            <p className="text-xl max-w-2xl mx-auto mb-8 text-gray-700">
-              Experience the companionship of an AI girlfriend online free who's
-              always there for you, understands your needs, and evolves with
-              your relationship.
+            <p className="text-xl mb-8 text-purple-100 max-w-2xl mx-auto">
+              Join thousands of satisfied users and experience the most advanced{" "}
+              <span className="text-pink-300">AI girlfriend app</span> available
+              today. Start your journey to meaningful companionship.
             </p>
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-indigo-600 to-purple-700 hover:from-indigo-700 hover:to-purple-800 text-white font-bold px-8 py-6 text-lg shadow-lg"
-            >
-              Get Your Free AI Girlfriend Now
-            </Button>
-            <div className="mt-6 text-gray-600 text-sm">
-              Join thousands of satisfied users with their own personalized AI
-              companion
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold px-8 py-3 text-lg"
+              >
+                Get Your Free AI GF Now
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-purple-300 text-purple-100 hover:bg-purple-800 hover:text-white px-8 py-3 text-lg"
+              >
+                Explore Premium Features
+              </Button>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 p-6 max-w-lg mx-auto">
+              <p className="text-purple-100 flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 mr-2 text-pink-400"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                No credit card required • Instant access • Cancel anytime
+              </p>
             </div>
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="pt-12 pb-6 px-4 bg-slate-900 text-slate-400">
           <div className="container mx-auto max-w-6xl">
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 pb-8">
               <div className="col-span-2 lg:col-span-1">
                 <div className="flex items-center mb-4">
-                  <div className="h-8 w-8 rounded-md bg-indigo-600 flex items-center justify-center text-white font-bold text-lg">
+                  <div className="h-8 w-8 rounded-md bg-purple-900 flex items-center justify-center text-white font-bold text-lg">
                     B
                   </div>
                   <span className="ml-2 font-bold text-xl text-white">
