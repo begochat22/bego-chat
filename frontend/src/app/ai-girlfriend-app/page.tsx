@@ -1126,9 +1126,9 @@ export default function AIGirlfriendPage() {
         </section>
 
         <footer className="pt-12 pb-6 px-4 bg-slate-900 text-slate-400">
-          <div className="container mx-auto max-w-6xl">
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 pb-8">
-              <div className="col-span-2 lg:col-span-1">
+          <div className="container mx-auto w-full max-w-7xl ">
+            <div className="flex justify-evenly   gap-8 pb-8">
+              <div className="w-[15rem]">
                 <div className="flex items-center mb-4">
                   <div className="h-8 w-8 rounded-md bg-purple-900 flex items-center justify-center text-white font-bold text-lg">
                     B
@@ -1286,35 +1286,31 @@ export default function AIGirlfriendPage() {
                   </li>
                 </ul>
               </div>
-              <div>
-                <h3 className="font-semibold text-white mb-4">Legal</h3>
-                <ul className="space-y-2">
-                  <li>
-                    <a href="#" className="hover:text-white transition-colors">
-                      Privacy Policy
+
+              <div className=" w-[30rem] ">
+                <h3 className="font-semibold text-white mb-4">Location</h3>
+                <p className="text-sm mb-3 text-white">
+                  304 Saaha Offices B Souk Al Bahar - Dubai - United Arab
+                  Emirates
+                </p>
+                <div className="w-full h-[10rem] bg-slate-800 rounded-lg overflow-hidden relative">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.907364961767!2d55.27245231500943!3d25.19402098390083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682def25f437%3A0x3dd4c4275e5ee45b!2sSouk%20Al%20Bahar!5e0!3m2!1sen!2sae!4v1681859884500!5m2!1sen!2sae"
+                    style={{ border: 0 }}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                  {/* <div className="absolute bottom-0 left-0 right-0 bg-slate-800 bg-opacity-70 text-xs text-center py-1">
+                    <a
+                      href="https://maps.google.com/maps?q=Souk+Al+Bahar+Dubai"
+                      target="_blank"
+                      className="text-white hover:underline"
+                    >
+                      View larger map
                     </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-white transition-colors">
-                      Terms of Service
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-white transition-colors">
-                      Cookie Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-white transition-colors">
-                      GDPR
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-white transition-colors">
-                      Security
-                    </a>
-                  </li>
-                </ul>
+                  </div> */}
+                </div>
               </div>
             </div>
             <div className="pt-8 border-t border-slate-800">
